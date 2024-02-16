@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('blue-psychedelic-paper-shapes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* agar gambar tetap ketika scroll */
+  }
+
+nav {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 75px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0px 0px 0px 40px;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-container1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-right: 35%;
+}
+.logo-container2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-right: 35%;
+}
+.logo-container3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-right: 35%;
+}
+
+.kolom {
+    margin-right: 25px;
+}
+
+.judul {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.deskripsi {
+    max-width: 400px;
+}
+
+.deskripsi p {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 25px;
+    margin-left: 5%;
+    color: #fff;
+}
+
+.deskripsi img {
+    width: 75px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}

@@ -1,0 +1,160 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('blue-psychedelic-paper-shapes.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* agar gambar tetap ketika scroll */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper #apg {
+    border-radius: 600px;
+    margin-top: 2%;
+    border: 2px solid rgb(103, 99, 99);
+    margin-bottom: 3%;
+    width: 25%;
+}
+
+nav {
+  background-color: #fff; /* Warna putih untuk navbar */
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #000; /* Border hitam pada bagian bawah navbar */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  border: 1px solid #000; /* Border hitam pada list */
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 0px 0px 0px 40px;
+}
+
+.menu ul li {
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: block;
+}
+
+.menu ul li a:hover {
+  background-color: #333; /* Warna latar belakang saat dihover */
+  color: #fff;
+} 
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deksripsi {
+    font-size: 35px;  
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #ffffff;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 000;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 100px;
+}
+
+p{
+    font-family: 'comic sans ms';
+    font-weight: 000;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 100px;
+}
+
+.logo img {
+    margin-top: 30px;
+}
+
+.buttons button,
+.buttons a {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: black;
+    padding: 0.6rem 1.2rem; /* Mengurangi padding agar tombol lebih kecil */
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Menyesuaikan padding tombol saat dihover */
+.buttons button:hover,
+.buttons .kntk:hover {
+    transform: scale(1.1);
+    background-color: #00FFF5;
+    padding: 0.6rem 1.2rem; /* Mengurangi padding saat dihover */
+}
+
+.buttons .kntk {
+  margin-left: 19%; /* Sesuaikan nilai margin kiri sesuai kebutuhan */
+  background-color: #0062ff; /* Warna latar belakang yang solid */
+}
+
+/* Menyesuaikan padding tombol pada status hover */
+.buttons a:hover {
+    padding: 0.6rem 1.2rem; /* Mengurangi padding saat dihover */
+}
+
+/* Menyesuaikan padding tombol pada status hover */
+.buttons button:hover {
+    background-color: var(--blue);
+    padding: 0.6rem 1.2rem; /* Mengurangi padding saat dihover */
+}
+
+

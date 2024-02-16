@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('blue-psychedelic-paper-shapes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* agar gambar tetap ketika scroll */
+  }
+  
+  nav {
+    background-color: #fff; /* Warna putih untuk navbar */
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #000; /* Border hitam pada bagian bawah navbar */
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    width: px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    border: 1px solid #000; /* Border hitam pada list */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .menu ul li {
+    margin-right: 20px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #333; /* Warna latar belakang saat dihover */
+    color: #fff;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
