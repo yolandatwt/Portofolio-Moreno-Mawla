@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('blue-psychedelic-paper-shapes.jpg');
+  background-image: url('img/bg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* agar gambar tetap ketika scroll */
